@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "extends": "meetnow",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": "off"
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
+  }
+}
